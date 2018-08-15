@@ -1,0 +1,27 @@
+.container {
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 200px;
+    box-sizing: border-box;
+}
+.inside {
+    height: 10px;
+    width: 130px;
+    padding: 10px;    
+    margin: 2px;
+    background-color:#abcc32;
+}
+.text {
+    height: 20px;
+    width: 180px;
+    /* transform: rotate(-90deg); */
+    font-size: 1.1em;
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: 124px;
+    right: -70px;
+    color: #abcc32;
+}
+
